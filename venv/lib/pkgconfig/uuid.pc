@@ -1,0 +1,11 @@
+prefix=/home/deeptensor/Desktop/End to End/venv
+exec_prefix=/home/deeptensor/Desktop/End to End/venv
+libdir=/home/deeptensor/Desktop/End to End/venv/lib
+includedir=/home/deeptensor/Desktop/End to End/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
